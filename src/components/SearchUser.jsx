@@ -17,14 +17,16 @@ function SearchUser() {
         </div>
 
 
-       
-        {/* <div className='flex justify-center mt-5'>
-          <div className='h-[200px] w-[160px] bg-slate-500 grid place-content-center'>
+      <div className='flex flex-wrap justify justify-evenly'>
+        <div className='md:w-[50%]'>
+          <div className='grid place-content-center'>
               <img src={user} alt="" srcset="" />
           </div>
-          <div className=' h-[200px] w-[400px] bg-slate-900'></div>
-        </div> */}
-
+          <div className=''>
+            <p className='p-5 font-mono text-justify text-2xl md:text-xl'>Hi!, Welcome to <span className='font-bold'>Nurul</span> 's Github Profile. He is currently living in <span className='font-bold'> Dhaka</span>. He is working with <span className='font-bold'>Green University</span>. He is active github user since <span className='font-bold'>12/33/33</span>. His Total public repo is 23.</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
