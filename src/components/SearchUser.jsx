@@ -17,7 +17,7 @@ function SearchUser() {
         </div>
 
 
-      <div className='flex flex-wrap justify justify-evenly'>
+      <div className='flex flex-wrap justify-evenly'>
         <div className='md:w-[50%]'>
           <div className='grid place-content-center'>
               <img src={user} alt="" srcset="" />
