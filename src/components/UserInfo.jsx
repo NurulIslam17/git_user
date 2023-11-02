@@ -14,8 +14,10 @@ function UserInfo({ userName }) {
         axios.get(`https://api.github.com/users/${userName}`).then((response) => {
             setUser(response.data);
             setLoading(false);
+            setError(false);
         }).catch((err)=>{
             setError(true)
+            setUser(null);
             setLoading(false);
         });
     },[userName]);
